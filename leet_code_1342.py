@@ -26,6 +26,7 @@ Leet code problem - Number of Steps to Reduce a Number to Zero
 num = int(input("Enter a number: "))
 count = 0
 
+#check if number is greater than 0
 while num > 0:
   if num % 2 == 0:
     num = num / 2
