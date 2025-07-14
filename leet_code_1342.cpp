@@ -28,6 +28,7 @@ int main(){
   cout << "Enter a num: ";
   cin >> num;
 
+   // chechk if number greater than 0
   while (num > 0){
     if (num % 2 == 0){
       num /= 2;
