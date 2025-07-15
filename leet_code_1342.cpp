@@ -16,5 +16,29 @@ Example Output:
 6
 
 */
+#include <iostream>
+using namespace std;
+
+int main(){
+   int num;
+  int count = 0;
+
+  cout << "Enter a num: ";
+  cin >> num;
+
+   // chechk if number greater than 0
+  while (num > 0){
+    if (num % 2 == 0){
+      num /= 2;
+    }
+    else{
+      num--;
+    }
+    count++;    
+  }
+
+  cout << "\nCount: " << count << endl;
+  return 0;
+}
 
 
